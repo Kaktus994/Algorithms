@@ -17,7 +17,6 @@ class Q:
 			temp_sum = sum((-1)**(k + 1) * Q.calculate_q(n - k**2) for k in range(1, sum_upper_limit + 1))
 			return Q.check_s(n) + 2 * temp_sum
 
-
 	def check_s(n):
 		"""
 		Check if n is in dict and get result
@@ -28,7 +27,6 @@ class Q:
 			return (-1)**temp_dict[n]
 		else:
 			return 0
-
 
 	def calculate_s(n):
 		
@@ -57,4 +55,3 @@ Test
 if __name__ == "__main__":
 	for i in range(1, 101):
 		print(i, "->", Q.q(i))
-
