@@ -17,3 +17,11 @@ Algorithm finds all independent "paths" inside the given matrix(input). NOTE: on
 Path is built out of "1"s and "0" is considered to be the end of the path. "1" is appended to the current path if its  position is either "left", "right", "top", "bottom" of the current node("1"). Diagonals do not count! Adjacent nodes to the current node are called "neighbours"
 
 Return: list of independent path sizes (list)
+
+#
+<b>The Longest Range of Ints</b>
+
+#
+Function will return the longest range of integers inside of an array. Input is a list of integers. Input array is expected to have only ONE "longest range". If there is more than one, then the range with lowest key (list[0]) will be returned. Input array does not need to be consisted of unique integers.
+
+Return list of length==2 (start, end) (list)
